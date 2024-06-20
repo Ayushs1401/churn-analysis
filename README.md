@@ -1,11 +1,11 @@
 Bank Customer Churn Analysis
-Overview
+Overview:
 Customer churn is a significant issue for banking institutions. This project analyzes the factors contributing to customer churn using a dataset of bank customers. By understanding these factors, we can develop strategies to retain customers and enhance their overall experience.
 
-Dataset
+Dataset:
 The dataset includes various attributes related to bank customers, such as demographic details, account information, and whether the customer has churned (left the bank).
 
-Attributes
+Attributes:
 customer_id: Unique identifier for each customer
 credit_score: Customer's credit score
 country: Customer's country of residence
@@ -18,7 +18,7 @@ credit_card: Whether the customer has a credit card (1: Yes, 0: No)
 active_member: Whether the customer is an active member (1: Yes, 0: No)
 estimated_salary: Estimated annual salary of the customer
 churn: Whether the customer has churned (1: Yes, 0: No)
-Analysis
+Analysis:
 Descriptive Statistics
 Total Customers: 10,000
 Churn Rate: 20.37%
@@ -37,7 +37,7 @@ Balance: Customers with zero balance are more likely to churn.
 Products Number: Customers using fewer products tend to churn more.
 Active Membership: Non-active members have a higher churn rate.
 Credit Card: Slightly higher churn rate for customers without a credit card.
-Key Findings
+Key Findings:
 High Churn among Older Customers: Age is a significant factor in churn, with older customers showing a higher tendency to leave.
 Impact of Credit Score: Customers with lower credit scores are more prone to churn, indicating potential financial instability.
 Zero Balance Concerns: A substantial number of customers with zero balance churn, suggesting a lack of engagement with bank services.
@@ -55,4 +55,4 @@ Reducing customer churn requires a multifaceted approach that addresses the vari
 Files
 Bank Customer Churn Prediction.csv: The dataset used for analysis.
 Bank_Customer_Churn_Analysis_Report.pdf: A detailed PDF report of the analysis.
-Bank_Customer_Churn_Analysis_Report.pptx: A PowerPoint presentation summarizing the analysis.
+
